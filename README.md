@@ -1,8 +1,8 @@
-algorithms exercises
-====================
+algorithms
+==========
 
 
-This repo contains various algorithm exercises I've encountered.
+This repo contains various Ruby algorithm exercises I've encountered.
 
 They say the best way to improve is to do a shit ton of them on your own.
 
