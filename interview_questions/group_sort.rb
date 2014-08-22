@@ -18,6 +18,14 @@ def sort(arr)
 end
 
 
+# Using Ruby's #group_by:
+
+def sort(arr)
+  arr.group_by {|animal| animal.length}.sort.map{|x|x.last.sort}.flatten
+end
+
+
+
 arr = ['whatthehellisthis','dog', 'cat', 'mouse', 'elephant', 'eagle', 'cannary', 'levianthon', 'littlepiggything','birdy','fox']
 
 p sort(arr)
