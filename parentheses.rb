@@ -11,7 +11,7 @@ def valid_parens?(str)
       only_parens.gsub!('{}', "")
       only_parens.gsub!("[]", "")
   end
-  only_parens == "" ? true : false
+  only_parens == ""
 end
 
 
