@@ -9,7 +9,7 @@ def is_palendrome?(n)
   n.to_s == n.to_s.reverse
 end
 
-def largest_prime_palendrome(n)
+def largest_prime_palindrome(n)
   until n < 2
     return n if is_prime?(n) && is_palendrome?(n)
     n -= 1
