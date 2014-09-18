@@ -18,7 +18,6 @@ def arithmetic?(arr)
     return false if next_diff != current_diff
   end
   true
-
 end
 
 def geometric?(arr)
